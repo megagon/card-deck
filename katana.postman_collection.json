@@ -56,7 +56,7 @@
 					"urlencoded": [
 						{
 							"key": "shuffled",
-							"value": "false",
+							"value": "true",
 							"type": "text"
 						},
 						{
@@ -97,12 +97,12 @@
 					"urlencoded": [
 						{
 							"key": "shuffled",
-							"value": "false",
+							"value": "true",
 							"type": "text"
 						},
 						{
 							"key": "type",
-							"value": "FULL",
+							"value": "SHORT",
 							"type": "text"
 						}
 					]
@@ -137,26 +137,26 @@
 					"mode": "urlencoded",
 					"urlencoded": [
 						{
-							"key": "shuffled",
-							"value": "false",
+							"key": "uuid",
+							"value": "09397b46-3f8a-49d5-bf0c-d93636d244be",
 							"type": "text"
 						},
 						{
-							"key": "type",
-							"value": "FULL",
+							"key": "amount",
+							"value": "23",
 							"type": "text"
 						}
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8080/create",
+					"raw": "http://localhost:8080/draw",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"create"
+						"draw"
 					],
 					"query": [
 						{
@@ -180,29 +180,36 @@
 						{
 							"key": "shuffled",
 							"value": "false",
-							"type": "text"
+							"type": "text",
+							"disabled": true
 						},
 						{
 							"key": "type",
 							"value": "FULL",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "uuid",
+							"value": "b8020fb4-73aa-48b2-985d-6fdf936e2927",
 							"type": "text"
 						}
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8080/create",
+					"raw": "http://localhost:8080/open",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"create"
+						"open"
 					],
 					"query": [
 						{
-							"key": "shuffled",
-							"value": "",
+							"key": "id",
+							"value": "50413599-6f66-4ffa-9e8c-fd08b3f588f6",
 							"disabled": true
 						}
 					]
@@ -221,28 +228,35 @@
 						{
 							"key": "shuffled",
 							"value": "false",
-							"type": "text"
+							"type": "text",
+							"disabled": true
 						},
 						{
 							"key": "type",
 							"value": "FULL",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "uuid",
+							"value": "b8020fb4-73aa-48b2-985d-6fdf936e2927",
 							"type": "text"
 						}
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8080/create",
+					"raw": "http://localhost:8080/shuffle",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"create"
+						"shuffle"
 					],
 					"query": [
 						{
-							"key": "shuffled",
+							"key": "uui",
 							"value": "",
 							"disabled": true
 						}
